@@ -1,14 +1,18 @@
 filename="nimet.txt"
 list={}
-count=0
+many=0
 with open(filename) as f:
         for x in f:
             x=f.readline()
-            count+=1
-        if x != "":
-            if x in list:
-                dict(x.count+=1) 
-            list=(x:count=1)
+            many+=1
+            if x != "":
+                if x in list:
+                    list[x]+=1   
+                elif x not in list:
+                    x=x[:-1] ##otin sen viimeisen \n pois
+                    list[x]=1
         
-print(f"löytyi: {count} nimeä!") 
-print(f"löytyi: {len(list)} nimeä!") 
+print(f"löytyi: {many} nimeä!") 
+oprint = list.items() 
+print(f"nimet : {oprint}") 
+print(f"monta : {len(list)}") 
