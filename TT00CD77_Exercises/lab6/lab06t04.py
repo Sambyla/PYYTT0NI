@@ -6,4 +6,4 @@ while count != 5:
     count+=1
 points.remove(min(points))
 points.remove(max(points))
-print(f"Pisteesi: {sum(points)}")
+print(f"Pisteet yhteensä: {sum(points)}")

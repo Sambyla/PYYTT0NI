@@ -1,4 +1,4 @@
-input("Press enter to run show_info function")
+# input("Press enter to run show_info function")
 def show_info():
     return "i am an info function"
 

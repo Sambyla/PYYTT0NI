@@ -10,5 +10,11 @@ class Pelikortti:
 
 kortti1 = Pelikortti(maatlista[0],14)
 kortti2 = Pelikortti(maatlista[2],7)
-print(f"Kortti nro 1 maa on {kortti1.maa} ja sen arvo on {kortti1.arvo}")
-print(f"Kortti nro 2 maa on {kortti2.maa} ja sen arvo on {kortti2.arvo}")
+kortti3 = Pelikortti(maatlista[3],8)
+kortti4 = Pelikortti(maatlista[1],7)
+kortti5 = Pelikortti(maatlista[0],2)
+print(kortti1.maa, kortti1.arvo)
+print(kortti2.maa, kortti2.arvo)
+print(kortti3.maa, kortti3.arvo)
+print(kortti4.maa, kortti4.arvo)
+print(kortti5.maa, kortti5.arvo)
