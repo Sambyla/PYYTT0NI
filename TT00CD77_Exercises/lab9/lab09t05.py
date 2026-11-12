@@ -1,5 +1,9 @@
-import random
-filename="lotto.txt"
+import random #haittaakohan noi sulut tuolla lotto.txt tulosteessa
+import os
+filename = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "lotto.txt"
+)
 def lotto():
     pallot=[]
     x=7
