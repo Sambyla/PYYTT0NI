@@ -1,4 +1,3 @@
-#Kuuluisiko tämän olevan input???
 class Car:
     brand=str()
     model=str()
